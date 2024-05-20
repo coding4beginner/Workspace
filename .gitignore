@@ -1,4 +1,7 @@
 git_remote_set-url
 node_modules
+<<<<<<< HEAD
 **/__pycache__
+=======
+>>>>>>> a923a69 (-)
 
