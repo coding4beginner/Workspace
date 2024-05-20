@@ -1,0 +1,23 @@
+version: "3.8"
+
+services:
+    app:
+        build:
+            context: .
+            dockerfile: Dockerfile
+
+        container_name: coding4beginner
+        volumes:
+            - ../../Lessons:/c4b/lessons
+            - ../../Workspace:/c4b/workspace
+            - ../../Courses:/c4b/courses
+
+            - ../..:/ROOT
+        ports:
+            - 8000:8000
+            - 8008:8080
+
+        environment:
+            - DJANGO_DEBUG=1
+
+        command: /bin/sh -c "while sleep 1000; do :; done"
