@@ -1,2 +1,0 @@
-docker run -it --name c4b -v $PWD:/HERE ubuntu
-
