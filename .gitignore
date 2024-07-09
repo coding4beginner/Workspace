@@ -2,5 +2,9 @@ node_modules
 **/__pycache__
 
 git_remote_set-url
+<<<<<<< HEAD
 bin
+=======
+node_modules
+>>>>>>> 487d8a3 (-)
 
